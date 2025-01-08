@@ -1,0 +1,40 @@
+name: codequest_etr
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  cupertino_icons: ^1.0.8
+  flutter:
+    sdk: flutter
+  path: ^1.9.0
+  sqflite: ^2.4.1
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.2 # Still part of dev_dependencies
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/logo/logo.png"
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/background/ # Includes lvl1.jpg, lvl2.jpg, lvl3.jpg, lvl4.jpg
+    - assets/characters/ # Includes character images and enemy images (enemy.png, enemy1.png, enemy2.png)
+    - assets/logo/logo.png
+  fonts:
+    - family: PressStart2P
+      fonts:
+        - asset: assets/fonts/PressStart2P.ttf
